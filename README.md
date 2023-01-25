@@ -44,4 +44,13 @@ it should outside of git repo folder,  because it's easy to accidentally publish
 npm start
 ```
 
+## to run on remote server
+// to create screen
+screen -S safe-transfer-backend
+// to exit
+ctrl + a ctrl + d 
+// to reattach
+screen -ls
+screen -r safe-transfer-backend
+
 
